@@ -27,7 +27,7 @@ def replaceLabel(inStr, replaceMap):
 
 
 if __name__ == "__main__":
-  with open('POSTags_LIMA_PTB_Linux.txt', 'r') as f:
+  with open('../data/POSTags_LIMA_PTB_Linux.txt', 'r') as f:
     tokenMap = genMapFromFile(f)
 
   #print(tokenMap)

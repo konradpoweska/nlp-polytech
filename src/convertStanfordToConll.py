@@ -27,7 +27,7 @@ def replaceLabels(inStr, replaceMap):
 
 
 if __name__ == "__main__":
-  with open('NERTags_CONLL_Stanford.txt', 'r') as f:
+  with open('../data/NERTags_CONLL_Stanford.txt', 'r') as f:
     tokenMap = genMapFromFile(f)
 
     #print(tokenMap)

@@ -28,7 +28,7 @@ def replaceLabels(inStr, replaceMap):
 
 if __name__ == "__main__":
     if sys.argv[1]=="-ptb":
-        with open('POSTags_PTB_Universal_Linux.txt', 'r') as f:
+        with open('../data/POSTags_PTB_Universal_Linux.txt', 'r') as f:
             tokenMap = genMapFromFile(f)
         with open(sys.argv[2]) as f:
             out = replaceLabels(f.read(), tokenMap)
